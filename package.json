@@ -1,0 +1,24 @@
+{
+  "name": "corso",
+  "version": "1.0.0",
+  "description": "corso java",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "reveal-md lezioni/ -w",
+    "build": "rm -rf docs && reveal-md lezioni/ --static docs --static-dirs=lezioni/attachments && mv docs/_assets docs/assets",
+    "print": "docker run --rm -t --net=host -v /path/slide:/slides astefanutti/decktape http://localhost:1948/ prova.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davideginna/corsojava.git"
+  },
+  "author": "scatolone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davideginna/corsojava/issues"
+  },
+  "homepage": "https://github.com/davideginna/corsojava#readme"
+}

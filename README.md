@@ -11,7 +11,13 @@ npm install -g reveal-md
 #### avvio server
 
 ```sh
-reveal-md Documents/corso/slide.md --theme white -w --vertical-separator "___"
+npm start
+```
+
+#### export static
+
+```sh
+npm run build
 ```
 
 #### stampa pdf
