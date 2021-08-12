@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "reveal-md lezioni/ -w",
-    "build": "rm -rf docs && reveal-md lezioni/ --static docs --static-dirs=lezioni/attachments && mv docs/_assets docs/assets",
+    "start": "reveal-md content/ -w",
+    "build": "rm -rf docs && reveal-md content/ --static docs --static-dirs=content/attachments && mv docs/_assets docs/assets",
     "print": "docker run --rm -t --net=host -v /path/slide:/slides astefanutti/decktape http://localhost:1948/ prova.pdf"
   },
   "repository": {
