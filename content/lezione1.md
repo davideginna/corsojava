@@ -1,36 +1,5 @@
-# Who is?
-
-Davide Ginnasio
-
-Full stack developer & DevOps
-
-<img src="attachments/td.png" alt="td" width="50">
-<img src="attachments/docker.png" alt="docker" width="50">
-<img src="attachments/spring.png" alt="spring" width="50">
-<img src="attachments/quarkus.png" alt="quarkus" width="50">
-<img src="attachments/angular.png" alt="angular" width="50">
-
----
-
-# Argomenti trattati
-___
-<h3 style="text-align: left;">
-- Casting Java</br>
-- Utilizzo di operatori e costrutti (if-else, while, switch, for)</br>
-- Array</br>
-___
-<h3 style="text-align: left;">
-- Interfaccia</br>
-- Classe astratta</br>
-</h3>
-___
-<h3 style="text-align: left;">
-- Gestione errori ed eccezioni</br>
-- Lombok</br>
-- Esercitazione finale</br>
-</h3>
----
 # premessa
+
 Principi fondamentali di Java:
 
 - Astrazione;
