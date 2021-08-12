@@ -33,4 +33,5 @@ docker run --rm -t --net=host -v /home/scatolone/Desktop:/slides astefanutti/dec
 
 ### Link
 https://github.com/webpro/reveal-md#reveal-md-options
+
 https://blog.hanklu.tw/post/2021/use-reveal-md-to-generate-multiple-slides-and-host-them-on-github-page/
