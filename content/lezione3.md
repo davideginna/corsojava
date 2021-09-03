@@ -330,6 +330,22 @@ ___
 ---
 # Esercitazione Finale
 ___
+### Battaglia navale
+
+<ul>
+<li style="font-size:30px">date in input la dimensione della griglia N x N e il numero di navi da mettere nella griglia</li>
+<li style="font-size:30px">le navi devono essere un terzo della dimensionsione della matrice (es. 3x3=9; navi massime posizionabili 9/3=3)</li>
+<li style="font-size:30px">le navi devono essere messe in maniera casuale</li>
+<li style="font-size:30px">azioni del programma:</li>
+</ul>    
+
+```
+Inserisci il comando
+0 - esci
+1 - colpisci nave
+2 - stampa griglia
+3 - ricomincia partita da zero
+```
 
 ---
 
