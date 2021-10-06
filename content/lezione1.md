@@ -729,6 +729,13 @@ LOREM IPSUM, DOLOR SIT AMET (tutto maiuscolo)<br>
 lorem ipsum dolor sit amet (tutto minuscolo)<br>
 Lorem Ipsum Dolor Sit Amet (prime lettere maiuscole, camel case)<br>
 </p>
+
+___
+### Esercizio 4
+- Data un array di numeri interi trovare il numero maggiore e il numero minore
+<p style="font-size:30px;text-align:left;">
+Plus 1: scorrere l'array una sola volta
+</p>
 ___
 # Let's code
 <img src="attachments/code.gif" alt="code" width="500">
