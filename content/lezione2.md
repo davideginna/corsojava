@@ -137,7 +137,52 @@ L'interfaccia Map che permette di gestire collezioni di oggetti del tipo chiave,
 <img src="attachments/map.png" alt="map" width="500">
 ___
 
-### Esercizio riassuntivo
+
+---
+# Esercizi
+
+___
+
+### Esercizio 1
+
+Scrivere un bot che risponda alle domande:</br>
+<p style="font-size:24px; text-align:left">
+	0 - come stai?</br>
+	1 - che tempo fa?</br>
+	2 - che ore sono?</br>
+	3 - ciao ciao (exit)</br>
+</p>
+
+ Il bot deve continuare a chiedere le informazioni in loop
+___
+
+### Esercizio 2
+
+Riscrivere l'esercizio della tombola utilizzando SET
+___
+
+### Esercizio 3
+
+Creazione di catalogo auto:
+<p style="font-size:24px; text-align:left">
+	- id auto (generato univoco dal sistema)</br>
+	- velocità massima</br>
+	- numero porte</br>
+	- colore</br>
+	- anno produzione</br>
+</p>
+Operazioni da effettuare:
+<p style="font-size:24px; text-align:left">
+    - aggiunta di una auto dal catalogo</br>
+    - rimozione di una auto dal catalogo</br>
+    - ricerca di auto dal catalogo</br>
+    - stampa catalogo</br>
+</p>
+
+Le operezioni devono essere un ciclo continuo
+___
+
+### Esercizio 4
 <p style="font-size:24px; text-align:left">
 Scrivere un programma che suddivida un mazzo di carte da 1 a 5 e con semi Cuori, Quadri, Picche e Fiori (C, Q, P, F) nei seguenti gruppi:<br><br> 
 - carte di cuori > 2<br>
