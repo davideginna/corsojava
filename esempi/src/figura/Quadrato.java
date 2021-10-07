@@ -21,4 +21,9 @@ public class Quadrato extends Figura implements Scala {
     public void redux(int scala) {
         lato = lato * scala / 100;
     }
+
+    @Override
+    public void aumentux(int aumento) {
+
+    }
 }
