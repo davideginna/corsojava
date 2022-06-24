@@ -741,7 +741,7 @@ ___
 <img src="attachments/code.gif" alt="code" width="500">
 ___
 
-<img src="https://media.giphy.com/media/QDK1pCI43lGhO/giphy.gif" alt="successo" width="750">
+<img src="attachments/successo.gif" alt="successo" width="750">
 
 ---
 # Fonti
