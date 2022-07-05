@@ -27,7 +27,6 @@ public class es5 {
                 new Persona("Al", 16));
 
 
-
         // esempio predicate
         VerificaInteroPari v = new VerificaInteroPari();
         System.out.println("27 è positivo ? " + v.test(27));
@@ -36,10 +35,6 @@ public class es5 {
                 .mapToInt(p -> p.getEta())
                 .filter(p -> v.test(p))
                 .count());
-
-
-
-
 
 
         CodiceFiscale cf = new CodiceFiscale();
@@ -55,7 +50,6 @@ public class es5 {
         cfs.stream()
                 .forEach(c -> ccf.accept(c));
         System.out.println("========================");
-
 
 
     }

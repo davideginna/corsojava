@@ -17,13 +17,6 @@ public class es2 {
     }
 
 
-
-
-
-
-
-
-
     private static List<Integer> generaLista() {
         List<Integer> list = new ArrayList<>();
         int size = 500000;

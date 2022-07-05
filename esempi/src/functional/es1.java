@@ -3,6 +3,7 @@ package functional;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * contare la lunghezza dei nomi
@@ -22,9 +23,13 @@ public class es1 {
         //verificaLunghezzaNome(listaNomi);
         //verificaLunghezzaNomeStream(listaNomi);
 
-        listaNomi.stream()
-                .filter(a -> a.startsWith("h"))
-                .forEach(a -> System.out.println("ha la h ?"  + a));
+        listaNomi.stream().filter(a -> a.startsWith("h")).forEach(a -> System.out.println("ha la h ?" + a));
+
+        var ll = listaNomi.stream().filter(a -> a.startsWith("h")).collect(Collectors.toList());
+        System.out.println(ll);
+
+        var l = listaNomi.stream().filter(a -> a.startsWith("h")).count();
+        System.out.println(l);
 
 
     }
@@ -56,8 +61,8 @@ public class es1 {
     private static void verificaLunghezzaNomeStream(List<String> listaNomi) {
         int lunghezzaNomi = 5;
         long countLunghezzaNomi = listaNomi.stream()
-                .filter(nome -> verificaLunghezzaNomeGTE(nome, lunghezzaNomi))
-                .count();
+                //.filter(nome -> verificaLunghezzaNomeGTE(nome, lunghezzaNomi))
+                .filter(nome -> nome.length() >= 5).count();
         System.out.println("nomi con lunghezza superiore a " + lunghezzaNomi + " : " + countLunghezzaNomi);
     }
 

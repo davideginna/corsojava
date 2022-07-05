@@ -23,7 +23,6 @@ public class es3 {
     }
 
 
-
     private static void sommaInteri(List<Elemento> elementi) {
         int somma;
         somma = elementi.stream()
@@ -39,10 +38,9 @@ public class es3 {
     }
 
 
-
-
     /**
      * somma tutta la lista di interi passata utilizzando gli stream
+     *
      * @param addendi
      */
     private static void sommaListaInteri(List<Integer> addendi) {
@@ -56,10 +54,6 @@ public class es3 {
                 .reduce(0, Integer::sum);
         System.out.println("somma " + somma2);
     }
-
-
-
-
 
 
     private static Integer mappaIlMioOggetto(Elemento a) {

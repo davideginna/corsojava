@@ -6,7 +6,7 @@ public class Persona {
     private int eta = 0;
     private String comuneDiNascita;
 
-    public Persona(){
+    public Persona() {
 
     }
 
