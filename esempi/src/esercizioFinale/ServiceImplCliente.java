@@ -14,4 +14,39 @@ public class ServiceImplCliente implements ServiceCliente {
                 "6 - chiudi"
         );
     }
+
+    @Override
+    public void listaProdotti() {
+
+    }
+
+    @Override
+    public void aggiungiProdottoCarrello() {
+
+    }
+
+    @Override
+    public void rimuoviProdottoCarrello() {
+
+    }
+
+    @Override
+    public void svuotaCarrello() {
+
+    }
+
+    @Override
+    public void inviaOrdine() {
+
+    }
+
+    @Override
+    public void totaleCostoCarrello() {
+
+    }
+
+    @Override
+    public void totalePesoCarrello() {
+
+    }
 }
