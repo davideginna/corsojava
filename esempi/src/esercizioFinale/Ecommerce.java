@@ -2,7 +2,6 @@ package esercizioFinale;
 
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -80,7 +79,9 @@ public class Ecommerce {
 
     public static List<Prodotto> catalogoProdotti = new ArrayList<>();
     public static List<Prodotto> carrelloProdotti = new ArrayList<>();
-    public static List<Prodotto> ordineProdotti = new ArrayList<>();
+    public static List<Prodotto> ordineCliente = new ArrayList<>();
+    public static List<List<Prodotto>> listaOrdiniVenditore = new ArrayList<>();
+
     public static ServiceVenditore serviceVenditore = new ServiceImplVenditore();
     public static ServiceCliente serviceCliente = new ServiceImplCliente();
 
