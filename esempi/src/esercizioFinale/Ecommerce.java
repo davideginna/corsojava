@@ -13,8 +13,8 @@ public class Ecommerce {
      * implementare un ecommerce nel quale é possibile autenticarsi come venditore o come cliente.
      *
      * come venditore le azioni disponili sono:
-     * - aggiungi prodotto
-     * - cancella prodotto
+     * - aggiungi prodotto a catalogo
+     * - cancella prodotto a catalogo
      * - lista prodotti in catalogo
      * - lista ordini
      * - invia ordine
@@ -25,8 +25,9 @@ public class Ecommerce {
      *
      *
      * come cliente le azioni disponibili sono:
-     * - visualizza prodotti
+     * - lista prodotti in catalogo
      * - aggiungi prodotto al carrello
+     * - rimuovo prodotto dal carrello
      * - svuota carrello da tutti i prodotti
      * - rimuovi prodotto dal carrello
      * - invia ordine dei prodotti presenti nel carrello
@@ -46,7 +47,7 @@ public class Ecommerce {
      * se si seleziona il 0 - accesso come venditore, il sistema presenta le seguenti scelte:
      * 0 - aggiungi prodotto
      * 1 - cancella prodotto
-     * 2 - lista prodotti
+     * 2 - lista prodotti in catalogo
      * 3 - lista ordini
      * 4 - invia ordine
      * 5 - prodotto piú costoso nel catalogo
@@ -56,10 +57,10 @@ public class Ecommerce {
      * 9 - torna alla lista di scelta profilo
      *
      * se si seleziona il 1 - accesso come cliente, il sistema presenta le seguenti scelte:
-     * 0 - visualizza prodotti
+     * 0 - lista prodotti in catalogo
      * 1 - aggiungi prodotto al carrello
-     * 2 - svuota carrello da tutti i prodotti
-     * 3 - rimuovi prodotto dal carrello
+     * 2 - rimuovi prodotto dal carrello
+     * 3 - svuota carrello da tutti i prodotti
      * 4 - invia ordine dei prodotti presenti nel carrello
      * 5 - totale costo carrello
      * 6 - totale peso carrello
