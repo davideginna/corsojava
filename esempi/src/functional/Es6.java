@@ -2,7 +2,7 @@ package functional;
 
 import java.util.Optional;
 
-public class es6 {
+public class Es6 {
     public static void main(String[] args) {
 
         // esempio di orElse

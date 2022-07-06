@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class es5 {
+public class Es5 {
     public static void main(String[] args) {
 
         // esempio consumer

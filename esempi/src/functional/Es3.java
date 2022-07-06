@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class es3 {
+public class Es3 {
     public static void main(String[] args) {
 
         List<Integer> addendi = Arrays.asList(4, 3, 2, 5);

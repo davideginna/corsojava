@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * comparison time
  */
-public class es2 {
+public class Es2 {
 
     public static void main(String[] args) {
         List<Integer> list = generaLista();

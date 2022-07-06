@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class es4 {
+public class Es4 {
     public static void main(String[] args) {
 
         List<Persona> persone = Arrays.asList(

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class es7 {
+public class Es7 {
     public static void main(String[] args) {
         List<List<Integer>> myList = new ArrayList<>();
         myList.add(new ArrayList<>(Arrays.asList(1, 2, 3)));

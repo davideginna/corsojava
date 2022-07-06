@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * contare la lunghezza dei nomi
  */
 
-public class es1 {
+public class Es1 {
     public static void main(String[] args) {
         List<String> listaNomi = new ArrayList<>();
         aggiungiNomi(listaNomi);
