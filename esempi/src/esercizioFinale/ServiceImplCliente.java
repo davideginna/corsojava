@@ -3,7 +3,7 @@ package esercizioFinale;
 public class ServiceImplCliente implements ServiceCliente {
 
     @Override
-    public void stamaAzioniCliente() {
+    public void stamaAzioni() {
         System.out.println("=== Azioni cliente ===\n" +
                 "0 - visualizza prodotti\n" +
                 "1 - aggiungi prodotto al carrello\n" +
