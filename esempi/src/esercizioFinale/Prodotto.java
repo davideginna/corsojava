@@ -25,4 +25,8 @@ public class Prodotto {
     public String toString() {
         return "{\"Prodotto\": {" + "\"codice\":\"" + codice + "\"" + ", \"nome\":\"" + nome + "\"" + ", \"prezzo\":\"" + prezzo + "\"" + ", \"peso\":\"" + peso + "\"" + ", \"dataCreazione\":\"" + dataCreazione + "\"" + ", \"dataModifica\":\"" + dataModifica + "\"" + "}}";
     }
+    /*
+    * https://jsonformatter.org/
+    * utilizzare il link per visualizzare le stampe in modo piú leggibile
+    * */
 }

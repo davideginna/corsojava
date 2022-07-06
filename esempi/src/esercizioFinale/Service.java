@@ -11,6 +11,11 @@ public interface Service {
     List<Prodotto> riempiCatalogo();
 
     /**
+     * metodo per stampare azioni di login
+     */
+    void stampaLogin();
+
+    /**
      * metodo per stampare il catalogo dei prodotti
      */
     void stampaCatalogo(List<Prodotto> catalogo);
