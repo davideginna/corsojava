@@ -11,6 +11,7 @@ public class ServiceImpl implements Service {
 
     @Override
     public List<Prodotto> riempiCatalogo() {
+        System.out.println("set catalogo prodotti");
         List<Prodotto> catalogo = new ArrayList<>();
         var result = Collections.addAll(
                 catalogo,
@@ -40,7 +41,7 @@ public class ServiceImpl implements Service {
                         .build(),
                 Prodotto.builder()
                         .codice("004")
-                        .nome("pc")
+                        .nome("notebook")
                         .prezzo(699.99)
                         .peso(4.7)
                         .dataCreazione(new Date())
@@ -72,6 +73,21 @@ public class ServiceImpl implements Service {
 
     @Override
     public void stampaOrdine(List<Prodotto> ordine) {
+
+    }
+
+    @Override
+    public void stampaLunghezzaCatalogo(List<Prodotto> catalogo) {
+
+    }
+
+    @Override
+    public void stampaLunghezzaCarrello(List<Prodotto> carrello) {
+
+    }
+
+    @Override
+    public void stampaLunghezzaOrdine(List<Prodotto> ordine) {
 
     }
 }

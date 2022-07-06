@@ -23,15 +23,22 @@ public class Ecommerce {
      * - invia ordine dei prodotti presenti nel carrello
      *
      * bonus: l'accesso alla piattaforma da parte del venditore e cliente é fatto con user e password
+     *
+     *
+     * Funzionamento
+     * Una volta avviato il sistema
      */
 
     public static List<Prodotto> catalogoProdotti = new ArrayList<>();
 
 
     public static void main(String[] args) {
-         Service service = new ServiceImpl();
+        Service service = new ServiceImpl();
 
         // set catalogo prodotti
+        System.out.println("=== INIZIO ===");
+
+
         catalogoProdotti = service.riempiCatalogo();
         service.stampaCatalogo(catalogoProdotti);
 

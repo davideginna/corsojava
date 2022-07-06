@@ -8,7 +8,7 @@ public interface Service {
      *
      * @return ritorna una lista di prodotti
      */
-    List<Prodotto> riempiCatalogo() ;
+    List<Prodotto> riempiCatalogo();
 
     /**
      * metodo per stampare il catalogo dei prodotti
@@ -24,6 +24,21 @@ public interface Service {
      * metodo per stampare l'ordine dei prodotti
      */
     void stampaOrdine(List<Prodotto> ordine);
+
+    /**
+     * metodo per stampare la lunghezza del catalogo dei prodotti
+     */
+    void stampaLunghezzaCatalogo(List<Prodotto> catalogo);
+
+    /**
+     * metodo per stampare la lunghezza del carrello dei prodotti
+     */
+    void stampaLunghezzaCarrello(List<Prodotto> carrello);
+
+    /**
+     * metodo per stampare la lunghezza dell'ordine dei prodotti
+     */
+    void stampaLunghezzaOrdine(List<Prodotto> ordine);
 }
 
 

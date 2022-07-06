@@ -21,4 +21,8 @@ public class Prodotto {
 
     private Date dataModifica;
 
+    @Override
+    public String toString() {
+        return "{\"Prodotto\": {" + "\"codice\":\"" + codice + "\"" + ", \"nome\":\"" + nome + "\"" + ", \"prezzo\":\"" + prezzo + "\"" + ", \"peso\":\"" + peso + "\"" + ", \"dataCreazione\":\"" + dataCreazione + "\"" + ", \"dataModifica\":\"" + dataModifica + "\"" + "}}";
+    }
 }
