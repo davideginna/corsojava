@@ -172,7 +172,7 @@ public class Ecommerce {
                     System.out.println("LogOut");
                     break;
                 default:
-                    System.out.println("Scelta non valida, inserire 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 o 10");
+                    System.out.println("Scelta non valida, inserire 0, 1, 2, 3, 4, 5, 6, 7, 8 o 9");
                     break;
             }
         }

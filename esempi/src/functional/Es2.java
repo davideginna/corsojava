@@ -19,7 +19,7 @@ public class Es2 {
 
     private static List<Integer> generaLista() {
         List<Integer> list = new ArrayList<>();
-        int size = 500000;
+        int size = 5000000;
         Random random = new Random(System.currentTimeMillis());
 
         for (int i = 0; i < size; i++) {

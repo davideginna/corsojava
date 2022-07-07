@@ -21,6 +21,7 @@ public class Es7 {
 
     }
 
+
     public static void isPrimeNumber(int i) {
         int factors = 0;
         int j = 1;
